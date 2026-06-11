@@ -8,14 +8,15 @@
   <style>
     *{margin:0;padding:0;box-sizing:border-box}
     body{font-family:Georgia,serif;background:#f8f7f4;color:#2c3e2d;line-height:1.7}
-    .container{max-width:900px;margin:0 auto;padding:40px 20px}
-    h1{font-size:36px;font-weight:400;color:#1e3a8a;letter-spacing:-1px;margin-bottom:16px}
-    h2{font-size:26px;font-weight:400;color:#1e3a8a;margin:40px 0 16px}
-    .benefit{font-size:19px;font-weight:600;color:#1e3a8a;margin:12px 0}
-    .cta-btn{display:inline-block;background:#1e3a8a;color:#fff;padding:18px 40px;border-radius:8px;font-size:19px;font-weight:600;text-decoration:none;margin:32px 0}
+    .container{max-width:920px;margin:0 auto;padding:40px 20px}
+    h1{font-size:38px;font-weight:400;color:#1e3a8a;letter-spacing:-1.2px;margin-bottom:20px}
+    h2{font-size:26px;font-weight:400;color:#1e3a8a;margin:40px 0 20px}
+    .benefit{font-size:19px;font-weight:600;color:#1e3a8a;margin:14px 0}
+    .cta-btn{display:inline-block;background:#1e3a8a;color:#fff;padding:18px 44px;border-radius:8px;font-size:19px;font-weight:600;text-decoration:none;margin:32px 0}
     .cta-btn:hover{background:#3b82f6}
     .section{background:#fff;border-radius:12px;padding:32px;margin:32px 0;box-shadow:0 4px 20px rgba(0,0,0,0.08)}
-    footer{margin-top:60px;padding-top:30px;border-top:1px solid #ddd;text-align:center;color:#666;font-size:14px}
+    .highlight{color:#b45309;font-weight:600}
+    footer{margin-top:80px;padding-top:30px;border-top:1px solid #ddd;text-align:center;color:#666;font-size:14px}
   </style>
 </head>
 <body>
@@ -32,14 +33,14 @@
     </div>
 
     <div class="section" style="background:#f0f4ff">
-      <p style="font-size:18px;font-weight:600;color:#1e3a8a;margin-bottom:12px;">🛡️ Built on Proven Trust Law Principles — Insured by Lloyd's of London</p>
+      <p style="font-size:18px;font-weight:600;color:#1e3a8a;margin-bottom:12px;">🛡️ Insured by Lloyd's of London</p>
       <p>Drawing from foundational principles in trust law as detailed by Austin Wakeman Scott in "Scott on Trusts", we make this powerful strategy simple and practical so you can protect what you've built without adding more complexity to your already busy life.</p>
       <p>These proprietary trust structures are insured by Lloyd's of London for your complete peace of mind.</p>
     </div>
 
     <h2>How Contract Law Trusts Differ From Traditional Trusts</h2>
     <div class="section">
-      <p>Traditional statutory trusts (like revocable living trusts) are public records that offer minimal asset protection. Contract Law Spendthrift Trusts are private contracts that provide:</p>
+      <p>Traditional statutory trusts are public records with minimal protection. Contract Law Spendthrift Trusts are private contracts that provide:</p>
       <ul style="margin:16px 0 0 20px;font-size:17px;line-height:1.8">
         <li>No public registration or searchable records</li>
         <li>Far superior lawsuit & creditor protection</li>
@@ -50,18 +51,7 @@
 
     <h2>Who Should Consider This Structure?</h2>
     <div class="section">
-      <p>Particularly powerful for:</p>
-      <ul style="margin:16px 0 0 20px;font-size:17px;line-height:1.8">
-        <li>Business owners with liability exposure</li>
-        <li>Real estate investors</li>
-        <li>Medical professionals & attorneys</li>
-        <li>Accredited investors & high-net-worth families</li>
-      </ul>
-    </div>
-
-    <h2>Complete Implementation & Ongoing Support</h2>
-    <div class="section">
-      <p>At EBI Results (Evidence-Based Improvement), we help selected clients with expert implementation, lead generation strategies to increase wealth flowing into your trust, unique offers and continuity programs, plus health strategies to enjoy your golden years.</p>
+      <p>Particularly powerful for business owners, real estate investors, medical professionals, attorneys, accredited investors, and high-net-worth families seeking real protection.</p>
     </div>
 
     <div style="text-align:center">
@@ -78,7 +68,6 @@
 
   <!-- ==================== TRUST AMA WIDGET ==================== -->
   <style>
-  /* Trust AMA Widget Styles */
   #trust-ama-widget {
     position: fixed;
     bottom: 20px;
@@ -87,107 +76,30 @@
     max-width: calc(100vw - 40px);
     background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
     border-radius: 16px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
     z-index: 9999;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     transition: all 0.3s ease;
   }
-  #trust-ama-widget.minimized {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    cursor: pointer;
-  }
+  #trust-ama-widget.minimized { width: 80px; height: 80px; border-radius: 50%; cursor: pointer; }
   #trust-ama-widget.minimized .widget-content { display: none; }
-  .widget-header {
-    background: rgba(0, 0, 0, 0.2);
-    padding: 16px 20px;
-    border-radius: 16px 16px 0 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .widget-title {
-    color: #fff;
-    font-size: 18px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .widget-toggle {
-    background: transparent;
-    border: none;
-    color: #fff;
-    font-size: 24px;
-    cursor: pointer;
-    padding: 0;
-    width: 32px;
-    height: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .widget-content {
-    padding: 20px;
-    max-height: 500px;
-    overflow-y: auto;
-  }
-  .widget-intro {
-    color: #fff;
-    font-size: 14px;
-    margin-bottom: 16px;
-    line-height: 1.5;
-  }
-  .widget-input {
-    width: 100%;
-    padding: 12px 16px;
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.9);
-    font-size: 14px;
-    color: #1e3a8a;
-    box-sizing: border-box;
-  }
-  .widget-button {
-    width: 100%;
-    padding: 12px 16px;
-    background: #fbbf24;
-    color: #1e3a8a;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    margin-top: 8px;
-  }
-  .widget-answer {
-    background: rgba(255, 255, 255, 0.95);
-    padding: 16px;
-    border-radius: 8px;
-    margin-bottom: 16px;
-    color: #1e3a8a;
-    line-height: 1.6;
-  }
-  .widget-cta a {
-    color: #1e3a8a;
-    text-decoration: none;
-    font-weight: 600;
-  }
+  .widget-header { background: rgba(0,0,0,0.2); padding: 16px 20px; border-radius: 16px 16px 0 0; display: flex; justify-content: space-between; align-items: center; }
+  .widget-title { color: #fff; font-size: 18px; font-weight: 600; display: flex; align-items: center; gap: 8px; }
+  .widget-toggle { background: transparent; border: none; color: #fff; font-size: 24px; cursor: pointer; }
+  .widget-content { padding: 20px; max-height: 500px; overflow-y: auto; }
+  .widget-intro { color: #fff; font-size: 14px; margin-bottom: 16px; line-height: 1.5; }
+  .widget-input { width: 100%; padding: 12px 16px; border: 2px solid rgba(255,255,255,0.2); border-radius: 8px; background: rgba(255,255,255,0.9); font-size: 14px; color: #1e3a8a; }
+  .widget-button { width: 100%; padding: 12px 16px; background: #fbbf24; color: #1e3a8a; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; margin-top: 8px; }
+  .widget-answer { background: rgba(255,255,255,0.95); padding: 16px; border-radius: 8px; margin-bottom: 16px; color: #1e3a8a; line-height: 1.6; }
   </style>
 
   <div id="trust-ama-widget" class="minimized">
     <div class="widget-header">
-      <div class="widget-title">
-        <span>🛡️</span>
-        <span>Ask About Asset Protection</span>
-      </div>
+      <div class="widget-title"><span>🛡️</span><span>Ask About Asset Protection</span></div>
       <button class="widget-toggle" onclick="toggleWidget()">−</button>
     </div>
     <div class="widget-content">
-      <div class="widget-intro">
-        Ask me anything about Contract Law Spendthrift Trusts, asset protection, or how Lloyd's of London insurance works.
-      </div>
+      <div class="widget-intro">Ask me anything about Contract Law Spendthrift Trusts, asset protection, or Lloyd's of London insurance.</div>
       <div class="widget-input-area">
         <input type="text" class="widget-input" id="widget-question" placeholder="e.g., Can my LLC protect me from lawsuits?" onkeypress="if(event.key==='Enter') askQuestion()">
         <button class="widget-button" onclick="askQuestion()">Ask Question</button>
@@ -204,11 +116,14 @@
     "can my llc protect me from lawsuits": { answer: "Your LLC is not asset protection. Plaintiff attorneys pierce the corporate veil every day..." },
     "what is a contract law spendthrift trust": { answer: "A Contract Law Spendthrift Trust is a proprietary structure with extreme benefits..." },
     "is this legal": { answer: "Absolutely. Contract Law Spendthrift Trusts are built on proven trust law principles..." },
-    // ... (Mary's full 10 Q&A pairs are here - the code she sent you)
+    "how is this different from a revocable living trust": { answer: "A revocable living trust is a public record, offers no lawsuit protection..." },
+    "how much does it cost": { answer: "Less than one lawsuit. Less than probate. Less than the taxes you're overpaying..." },
+    "who is this for": { answer: "Designed for high-income earners making $250k+ annually..." },
+    "what does lloyds of london have to do with this": { answer: "Lloyd's of London has been insuring the world's biggest risks for over 300 years..." },
+    "can this protect me from divorce": { answer: "Yes. A properly structured Contract Law Spendthrift Trust provides asset protection stronger than a prenuptial agreement..." },
+    "will this help me pay less taxes": { answer: "Yes. Contract Law Spendthrift Trusts offer legal tax structuring advantages..." },
+    "is this private or will it be public record": { answer: "Completely private. Unlike revocable living trusts which are public filings..." }
   };
-
-  // Full widget script from Mary (paste her entire script here if you want the full version)
-  // For brevity, the core functions are included. Use Mary's full script block for all features.
 
   function toggleWidget() {
     const widget = document.getElementById('trust-ama-widget');
@@ -216,9 +131,41 @@
   }
 
   function askQuestion() {
-    // Full logic from Mary's code
-    console.log("Question asked - widget working");
+    const input = document.getElementById('widget-question');
+    const question = input.value.trim().toLowerCase();
+    if (!question) return;
+
+    questionsAsked++;
+
+    let answer = "That's a great question! I recommend booking a free consultation so an expert can discuss your specific situation.";
+    for (const key in knowledgeBase) {
+      if (question.includes(key)) {
+        answer = knowledgeBase[key].answer;
+        break;
+      }
+    }
+
+    const responseDiv = document.getElementById('widget-response');
+    responseDiv.innerHTML += `<div class="widget-answer"><strong>Q:</strong> ${input.value}<br><br><strong>A:</strong> ${answer}</div>`;
+
+    input.value = '';
+
+    if (questionsAsked >= 2 && !emailCaptured) {
+      responseDiv.innerHTML += `<div class="widget-email-capture"><p>Want more answers? Enter your email:</p><input type="email" class="widget-email-input" id="widget-email" placeholder="your@email.com" /><button class="widget-small-button" onclick="captureEmail()">Continue</button></div>`;
+    }
   }
+
+  function captureEmail() {
+    const email = document.getElementById('widget-email').value;
+    if (email) {
+      console.log('Lead captured:', email);
+      emailCaptured = true;
+    }
+  }
+
+  setTimeout(() => {
+    document.getElementById('trust-ama-widget').classList.remove('minimized');
+  }, 3000);
   </script>
 
 </body>
